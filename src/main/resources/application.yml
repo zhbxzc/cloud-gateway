@@ -1,0 +1,20 @@
+zuul:
+  routes:
+    sampleadapter:
+      path: /adapter/**
+      serverId: sampleadapter
+      stripPrefix: false
+spring:
+  ---rabbitmq:
+    host: 10.130.202.57
+    port: 5672
+    username: hie_cloud
+    password: hie_cloud123456
+    VirtualHost: tk-hie
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    preferIpAddress: true
+
