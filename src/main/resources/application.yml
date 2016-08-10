@@ -1,8 +1,8 @@
 zuul:
   routes:
-    sampleadapter:
-      path: /adapter/**
-      serverId: sampleadapter
+    cloud-gateway-server:
+      path: /cust/**
+      serverId: cloud-gateway-server
       stripPrefix: false
 spring:
   ---rabbitmq:

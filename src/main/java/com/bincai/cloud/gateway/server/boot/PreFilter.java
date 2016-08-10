@@ -1,4 +1,4 @@
-package com.bincai.cloud.cust.gateway.boot;
+package com.bincai.cloud.gateway.server.boot;
 
 import javax.servlet.http.HttpServletRequest;
 
